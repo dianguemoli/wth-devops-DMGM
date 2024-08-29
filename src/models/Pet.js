@@ -41,7 +41,7 @@ const PetSchema = new mongoose.Schema({
   image_url: {
     /* Url to pet image */
 
-    required: [true, 'https://www.ringo.com.co/Portals/ringo/imagenes-articulos/tips-fotografia/banner-interna-Tips-de-fotografia-para-aplicar-con-tu-perro-min.jpg'],
+    required: [true, 'Enter your foto here.'],
     type: String,
   },
   likes: {
